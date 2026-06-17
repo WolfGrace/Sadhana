@@ -1,0 +1,126 @@
+.footer-container {
+  background: #f4f3fa; /* Replaced soft orange with a clean, light blue-gray background */
+  padding-top: 40px;
+  border-top: 2px solid #2e2a7b; /* Changed top border accent from Orange to Brand Deep Blue */
+  margin-top: 40px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+.footer-column {
+  width: 22%;
+  min-width: 250px;
+  margin-bottom: 30px;
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-heading {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #2e2a7b; /* Headings updated from Orange to Brand Deep Blue */
+}
+
+.footer-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-link {
+  display: block;
+  text-decoration: none;
+  color: #444;
+  margin-bottom: 8px;
+  transition: 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #2e2a7b; /* Switched hover state from orange to Brand Deep Blue */
+  font-weight: 600;
+}
+
+.highlight {
+  color: #d31d24 !important; /* Unified red text highlight with Logo Crimson Red */
+}
+
+.footer-text {
+  color: #444;
+  margin-bottom: 8px;
+}
+
+/* Social Icons */
+.footer-social {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 15px;
+}
+
+.footer-icon {
+  color: #2e2a7b; /* Replaced orange icons with Brand Deep Blue */
+  cursor: pointer;
+  font-size: 24px;
+  transition: 0.3s ease;
+}
+
+.footer-icon:hover {
+  color: #d31d24; /* Replaced old bright red hover with Logo Crimson Red */
+}
+
+/* Contact Info */
+.footer-contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  color: #444;
+  transition: 0.3s ease;
+}
+
+.footer-contact:hover {
+  color: #2e2a7b; /* Switched hover text color from orange to Brand Deep Blue */
+}
+
+.contact-title {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #2e2a7b; /* Labels updated from Orange to Brand Deep Blue */
+}
+
+.footer-copyright {
+  text-align: center;
+  padding: 15px 0;
+  border-top: 1px solid #dcdbe7; /* Switched orange-tint divider line to a cool blue-gray line */
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-column {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .footer-social {
+    justify-content: center;
+    gap: 20px;
+  }
+}
