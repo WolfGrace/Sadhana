@@ -1,0 +1,278 @@
+/* ================================
+   GLOBAL PAGE STYLE
+================================ */
+.speech-page {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+}
+
+/* ================================
+   TOP BANNER (Brand Deep Blue)
+================================ */
+.speech-banner {
+  width: 100%;
+  padding: 80px 20px;
+  text-align: center;
+  /* Shifted layout from orange to premium medical Deep Blue gradient */
+  background: linear-gradient(135deg, #2e2a7b, #403b9c);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  color: white;
+}
+
+.speech-banner h1 {
+  font-size: 42px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+/* ================================
+   INTRO SECTION
+================================ */
+.speech-intro {
+  width: 85%;
+  margin: 60px auto;
+  display: flex;
+  align-items: center;
+  gap: 45px;
+}
+
+.speech-img {
+  width: 45%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.25);
+  transition: transform 0.4s ease;
+}
+
+.speech-intro-text {
+  width: 55%;
+}
+
+.speech-intro-text h2 {
+  color: #2e2a7b; /* Changed secondary section header to Brand Deep Blue */
+  font-size: 32px;
+  margin-bottom: 12px;
+}
+
+.speech-intro-text p {
+  line-height: 1.75;
+  color: #444;
+  font-size: 17px;
+}
+
+/* ================================
+   MAIN INFO CARD
+================================ */
+.speech-card {
+  width: 85%;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.12);
+  animation: fadeUp 0.8s ease-out;
+}
+
+.speech-card h2 {
+  text-align: center;
+  font-size: 30px;
+  color: #2e2a7b; /* Updated inner card heading to Brand Deep Blue */
+  margin-bottom: 25px;
+}
+
+.speech-card h4 {
+  font-size: 22px;
+  margin-top: 25px;
+  color: #333;
+}
+
+/* ========== INNER CARD CONTENT ========== */
+.speech-card-content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.speech-card-img {
+  width: 40%;
+  height: 290px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.speech-card-content p {
+  width: 60%;
+  line-height: 1.75;
+  color: #444;
+  font-size: 17px;
+}
+
+/* ================================
+   HOVER LIST (Clean Gray-Blue Tint)
+================================ */
+.hover-list {
+  margin-top: 25px;
+  padding-left: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hover-list li {
+  background: #f4f3fa; /* Switched orange background to clean clinical light blue-gray */
+  padding: 12px 20px;
+  border-radius: 10px;
+  font-size: 15px;
+  color: #2e2a7b; /* Updated list text to Brand Deep Blue */
+  border: 1px solid #dcdbe7; /* Replaced orange border with muted blue-gray border */
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.hover-list li:hover {
+  transform: translateX(10px) scale(1.04);
+  background: #eae8f4; /* Clean hover backdrop tint */
+  color: #d31d24; /* Changes item content highlight text to Logo Crimson Red on hover */
+}
+
+/* ================================
+   CONTACT SECTION (Deep Blue Gradient)
+================================ */
+.speech-contact {
+  margin-top: 60px;
+  padding: 60px 10%;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  /* Transformed from orange background to clinical, trusted deep-blue brand scheme */
+  background: linear-gradient(135deg, #2e2a7b, #1c1954);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  box-shadow: 0 -8px 20px rgba(0,0,0,0.12);
+}
+
+.contact-box {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.12); /* Adjusted translucency values for ideal white text contrast */
+  backdrop-filter: blur(10px);
+  padding: 35px;
+  border-radius: 18px;
+  text-align: left;
+  color: white;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.contact-box h4 {
+  font-size: 22px;
+  margin-bottom: 5px;
+  color: #e2e1f5; /* Shifted from warm orange-white to clean clinical blue-white */
+}
+
+.contact-box h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.phone {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* 🔴 LOGO CRIMSON RED CONTACT BUTTON */
+.contact-btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 28px;
+  background: #d31d24; /* Updated to use the correct brand Crimson Red */
+  color: white;
+  font-weight: 600;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: 0.3s ease;
+  border: none;
+}
+
+.contact-btn:hover {
+  background: #b0141a; /* Professional dark red hover state matching global button templates */
+  transform: scale(1.08);
+}
+
+/* Contact Image */
+.contact-img {
+  flex: 1;
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+/* ================================
+   KEYFRAME ANIMATION
+================================ */
+@keyframes fadeUp {
+  0% { opacity: 0; transform: translateY(40px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+/* ================================
+   RESPONSIVE DESIGN
+================================ */
+@media (max-width: 950px) {
+  .speech-intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .speech-intro-text, 
+  .speech-card-content p {
+    width: 100%;
+  }
+
+  .speech-img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .speech-card-content {
+    flex-direction: column;
+  }
+
+  .speech-card-img {
+    width: 100%;
+    height: 250px;
+  }
+}
+
+@media (max-width: 600px) {
+  .speech-banner h1 {
+    font-size: 30px;
+  }
+
+  .speech-card {
+    padding: 30px;
+  }
+
+  .contact-btn {
+    width: 100%;
+    text-align: center;
+  }
+
+  .speech-contact {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-img {
+    width: 100%;
+  }
+}
