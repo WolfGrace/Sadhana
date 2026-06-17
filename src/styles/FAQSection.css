@@ -1,0 +1,73 @@
+.faq-section {
+  width: 80%;
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+.faq-section h2 {
+  margin: 25px 0 15px;
+  color: #2e2a7b; /* Changed from Orange to Brand Deep Blue */
+  border-left: 4px solid #2e2a7b; /* Changed from Orange to Brand Deep Blue accent border */
+  padding-left: 10px;
+}
+
+/* Wrapper */
+.faq-item {
+  margin-bottom: 12px;
+}
+
+/* Question Button */
+.faq-question {
+  width: 100%;
+  background: #f4f3fa; /* Replaced light orange with a clean, light blue-gray tint */
+  color: #333;
+  border: none;
+  padding: 15px;
+  font-size: 16px;
+  text-align: left;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+
+/* Active state */
+.faq-question.active {
+  background: #2e2a7b; /* Changed from Orange to Brand Deep Blue for the active tab state */
+  color: white;
+}
+
+/* Answer Box */
+.faq-answer {
+  overflow: hidden;
+  background: #fcfbfe; /* Replaced warm orange undertone with clean light surface gray */
+  border-left: 3px solid #2e2a7b; /* Changed indicator bar from Orange to Brand Deep Blue */
+  padding: 0 15px;
+  border-radius: 0 0 5px 5px;
+  transition: max-height 0.3s ease;
+}
+
+.faq-answer p {
+  margin: 15px 0;
+}
+
+/* Optional: If your FAQ has a button */
+.faq-btn {
+  margin-top: 15px;
+  padding: 12px 18px;
+  background: #d31d24; /* Crimson Red perfectly matched to logo emblem ring */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.faq-btn:hover {
+  background: #b0141a; /* Darker red hover matching previous site CTA updates */
+}

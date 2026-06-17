@@ -1,0 +1,75 @@
+/* =======================
+   GLOBAL & RESET
+======================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+:root {
+  /* Updated Brand Colors to perfectly match the logo emblem and typography */
+  --brand: #d31d24;          /* Crimson Red from the logo emblem ring */
+  --brand-dark: #b0141a;     /* Darker Red variant for high-end hover actions */
+  --brand-blue: #2e2a7b;     /* Deep Blue from the logo text (available for global use) */
+  
+  /* Neutral Color Overhaul for a clean medical environment */
+  --text: #333;
+  --text-light: #666;
+  --bg: #ffffff;
+  --bg-light: #f4f3fa;       /* Switched plain gray to a premium clean light blue-gray tint */
+  --transition: 0.25s ease;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Page wrapper */
+.page {
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 20px;
+  }
+}
+
+/* Buttons */
+.btn {
+  background: var(--brand);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--brand-dark);
+}
+
+/* Card UI */
+.card {
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px rgba(0,0,0,0.06);
+  transition: var(--transition);
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
